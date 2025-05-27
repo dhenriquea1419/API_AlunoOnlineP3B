@@ -18,28 +18,41 @@ import java.util.Optional;
 
 @Service
 public class MatriculaAlunoService {
+    //Marca a classe como um serviço, permitindo que o Spring gerencie e injete onde necessário.
 
     public static final Double MEDIA_PARA_APROVACAO = 7.0;
     private static final Integer QTD_NOTAS =  2;
+    //Constantes para cálculo de média:
+    //A média mínima para aprovação é 7.0.
+    //São consideradas 2 notas.
 
     @Autowired
     MatriculaAlunoRepository matriculaAlunoRepository;
+    //Injeta o repositório para acesso ao banco de dados.
 
     public void criarMatricula(MatriculaAluno matriculaAluno){
         matriculaAluno.setStatus(MatriculaAlunoStatusEnum.MATRICULADO);
         matriculaAlunoRepository.save(matriculaAluno);
+        //Recebe um objeto de matrícula.
+        //Define o status inicial como “MATRICULADO”.
+        //Salva no banco.
     }
 
     public void trancarMatricula(Long idMatricula){
         MatriculaAluno matriculaAluno = matriculaAlunoRepository.findById(idMatricula).orElseThrow(() -> new ResponseStatusException(HttpStatus.NOT_FOUND, "Matrícula não encontrada"));
+        //Busca matrícula por ID.
+        //Se não existir, lança exceção 404.
 
         if (!MatriculaAlunoStatusEnum.MATRICULADO.equals(matriculaAluno.getStatus())){
             throw new ResponseStatusException(HttpStatus.BAD_REQUEST,
                     "Só é possível trancar uma matricula com o status MATRICULADO");
+            //Verifica se o status atual é “MATRICULADO”.
+            //Se não for, lança exceção 400.
         }
 
         matriculaAluno.setStatus(MatriculaAlunoStatusEnum.TRANCADO);
         matriculaAlunoRepository.save(matriculaAluno);
+        //Altera status para “TRANCADO” e salva a matrícula atualizada.
     }
 
     public void atualizarNotas(AtualizarNotasRequestDTO request, Long idMatricula){
