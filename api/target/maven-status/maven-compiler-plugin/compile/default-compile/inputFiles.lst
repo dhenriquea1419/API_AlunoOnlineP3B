@@ -1,5 +1,21 @@
-C:\Users\User\Documents\Daniel.H\api\src\main\java\br\com\alunoonline\api\AlunoOnlineApplication.java
-C:\Users\User\Documents\Daniel.H\api\src\main\java\br\com\alunoonline\api\controller\AlunoController.java
-C:\Users\User\Documents\Daniel.H\api\src\main\java\br\com\alunoonline\api\model\Aluno.java
-C:\Users\User\Documents\Daniel.H\api\src\main\java\br\com\alunoonline\api\repository\AlunoRepository.java
-C:\Users\User\Documents\Daniel.H\api\src\main\java\br\com\alunoonline\api\service\AlunoService.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\AlunoOnlineApplication.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\AlunoController.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\DisciplinaController.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\MatriculaAlunoController.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\ProfessorController.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\dto\AtualizarNotasRequestDTO.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\dto\DisciplinasAlunoResponseDTO.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\dto\HistoricoAlunoResponseDTO.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\enums\MatriculaAlunoStatusEnum.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\model\Aluno.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\model\Disciplina.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\model\MatriculaAluno.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\model\Professor.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\AlunoRepository.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\DisciplinaRepository.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\MatriculaAlunoRepository.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\ProfessorRepository.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\AlunoService.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\DisciplinaService.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\MatriculaAlunoService.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\ProfessorService.java
