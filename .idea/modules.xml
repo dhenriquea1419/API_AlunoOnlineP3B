@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/API_AlunoOnlineP3B.iml" filepath="$PROJECT_DIR$/.idea/API_AlunoOnlineP3B.iml" />
-      <module fileurl="file://$PROJECT_DIR$/api/api.iml" filepath="$PROJECT_DIR$/api/api.iml" />
     </modules>
   </component>
 </project>

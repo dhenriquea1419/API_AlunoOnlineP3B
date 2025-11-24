@@ -7,7 +7,8 @@ A **Aluno Online API** é uma aplicação RESTful desenvolvida em **Java 17 com 
 ## 📦 Tecnologias Utilizadas
 
 - ✅ Java 17  
-- ✅ Spring Boot  
+- ✅ Spring Boot
+- ✅ Spring Security
 - ✅ Spring Data JPA  
 - ✅ PostgreSQL  
 - ✅ Maven  
