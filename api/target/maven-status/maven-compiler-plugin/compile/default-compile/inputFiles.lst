@@ -1,4 +1,5 @@
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\AlunoOnlineApplication.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\config\SwaggerConfig.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\AlunoController.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\DisciplinaController.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\controller\MatriculaAlunoController.java
@@ -15,7 +16,16 @@ C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\al
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\DisciplinaRepository.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\MatriculaAlunoRepository.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\repository\ProfessorRepository.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\security\DadosTokenJWT.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\security\SecurityConfig.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\security\SecurityFilter.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\security\TokenService.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\AlunoService.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\DisciplinaService.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\MatriculaAlunoService.java
 C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\service\ProfessorService.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\usuario\AutenticacaoService.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\usuario\DadosAutenticacao.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\usuario\Role.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\usuario\Usuario.java
+C:\Users\Daniel Araújo\Documents\API_AlunoOnlineP3B\api\src\main\java\br\com\alunoonline\api\usuario\UsuarioRepository.java

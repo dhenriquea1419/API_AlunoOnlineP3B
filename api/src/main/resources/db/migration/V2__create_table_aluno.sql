@@ -1,0 +1,6 @@
+CREATE TABLE aluno (
+    id_aluno BIGINT AUTO_INCREMENT PRIMARY KEY,
+    nome_aluno VARCHAR(255) NOT NULL,
+    email_aluno VARCHAR(255) NOT NULL UNIQUE,
+    cpf_aluno VARCHAR(11) NOT NULL UNIQUE
+);
