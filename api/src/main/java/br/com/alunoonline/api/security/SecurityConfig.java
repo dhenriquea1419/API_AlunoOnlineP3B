@@ -30,9 +30,16 @@ public class SecurityConfig {
         return http.csrf(AbstractHttpConfigurer::disable)
                 .sessionManagement(sm -> sm.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
                 .authorizeHttpRequests(req -> {
-                    // ACESSO LIVRE
+
+                    // 🔓 ROTAS DO SWAGGER (precisam ser públicas)
+                    req.requestMatchers(
+                            "/v3/api-docs/**",
+                            "/swagger-ui/**",
+                            "/swagger-ui.html"
+                    ).permitAll();
+
+                    // 🔓 Login (público)
                     req.requestMatchers(HttpMethod.POST, "/login").permitAll();
-                    req.requestMatchers("/v3/api-docs/**", "/swagger-ui.html", "/swagger-ui/**").permitAll();
 
                     // === SOMENTE ADMIN ===
                     req.requestMatchers("/alunoscasa/**").hasRole("ADMIN");
@@ -42,11 +49,12 @@ public class SecurityConfig {
                     req.requestMatchers(HttpMethod.PATCH, "/matriculascasa/trancar/**").hasRole("ADMIN");
 
                     // === PROFESSOR (e admin) ===
-                    req.requestMatchers(HttpMethod.PATCH, "/matriculascasa/atualizar-notas/**").hasAnyRole("PROFESSOR", "ADMIN");
+                    req.requestMatchers(HttpMethod.PATCH, "/matriculascasa/atualizar-notas/**")
+                            .hasAnyRole("PROFESSOR", "ADMIN");
 
                     // === ALUNOS (e admin) ===
-                    req.requestMatchers(HttpMethod.GET, "/matriculascasa/emitir-historico/**").authenticated();
-
+                    req.requestMatchers(HttpMethod.GET, "/matriculascasa/emitir-historico/**")
+                            .authenticated();
 
                     // Outras requisições
                     req.anyRequest().authenticated();
